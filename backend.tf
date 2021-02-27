@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = ""
-    key    = ""
-    region = ""
+    bucket = "jjtech-ci-cd-terraform"
+    key    = "state/jjtech.tfstate"
+    region = "us-west-1"
     profile = "default"
   }
 }
